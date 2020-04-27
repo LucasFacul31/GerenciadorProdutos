@@ -20,7 +20,7 @@ public class ConnectionFactory {
 		try {
 			String server = "localhost";
 
-			String database = "portal_realnews";
+			String database = "web_produtos";
 
 			String url = "jdbc:mysql://" + server + "/" + database;
 
