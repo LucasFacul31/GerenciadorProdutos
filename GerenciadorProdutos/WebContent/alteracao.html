@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alteração de professor</title>
+</head>
+<body>
+	<form action="AlterarProfessor.do" method="post">
+		<h1>Alteração de professor</h1>
+		<div style="margin-bottom: 1rem;">
+			Matrícula do professor: <input type="number" name="matricula_pro"
+				required>
+		</div>
+		<h2 style="margin: 1rem 0;">Novos dados do professor:</h2>
+		<div style="margin-bottom: 1rem;">
+			CPF: <input type="text" name="cpf_pro" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Nome: <input type="text" name="nome_pro" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Endereço: <input type="text" name="endereco_pro" required>
+		</div>
+		<div>
+			<input type="submit" value="Atualizar dados">
+		</div>
+	</form>
+	<br>
+	<br>
+	<a href="index.html">Voltar</a>
+</body>
+</html>
