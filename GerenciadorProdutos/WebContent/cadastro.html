@@ -2,22 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Cadastro de professor</title>
+<title>Cadastro de produto</title>
 </head>
 <body>
-	<form action="CadastrarProfessor.do" method="post">
-		<h1>Cadastro de professor</h1>
+	<form action="CadastrarProduto.do" method="post">
+		<h1>Cadastro de produto</h1>
 		<div style="margin-bottom: 1rem;">
-			Matrícula: <input type="number" name="matricula_pro" required>
-		</div>
-		<div style="margin-bottom: 1rem;">
-			CPF: <input type="text" name="cpf_pro" required>
+			Código: <input type="number" name="codigo_pro" required>
 		</div>
 		<div style="margin-bottom: 1rem;">
 			Nome: <input type="text" name="nome_pro" required>
 		</div>
 		<div style="margin-bottom: 1rem;">
-			Endereço: <input type="text" name="endereco_pro" required>
+			Descrição: <input type="text" name="descricao_pro" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Valor: <input type="number" name="valor_pro" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Estoque: <input type="number" name="estoque_pro" required>
 		</div>
 		<div>
 			<input type="submit" value="Cadastrar">

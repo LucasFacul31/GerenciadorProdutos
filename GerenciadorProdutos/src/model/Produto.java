@@ -4,11 +4,11 @@ public class Produto implements java.io.Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	private int codigo;
+	private int codigo = -1;
 	private String nome;
 	private String descricao;
-	private double valor;
-	private int estoque;
+	private double valor = -1;
+	private int estoque = -1;
 
 	public Produto() {
 	}
@@ -20,6 +20,10 @@ public class Produto implements java.io.Serializable {
 		this.descricao = descricao;
 		this.valor = valor;
 		this.estoque = estoque;
+	}
+	
+	public boolean isValid() {
+		return this.codigo != -1 && this.nome != null && this.descricao != null && this.valor != -1 && this.estoque != -1;
 	}
 
 	public int getCodigo() {
