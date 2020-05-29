@@ -45,16 +45,16 @@ public class ListarProdutos extends HttpServlet {
 			}
 		}
 
-		saida.println("<a href=\"cadastro.html\">Cadastrar produto</a>");
+		saida.println("<a href=\"cadastro.jsp\">Cadastrar produto</a>");
 		saida.println("<br>");
 		saida.println("<br>");
-		saida.println("<a href=\"alteracao.html\">Alterar produto</a>");
+		saida.println("<a href=\"alteracao.jsp\">Alterar produto</a>");
 		saida.println("<br>");
 		saida.println("<br>");
-		saida.println("<a href=\"excluir.html\">Excluir produto</a>");
+		saida.println("<a href=\"excluir.jsp\">Excluir produto</a>");
 		saida.println("<br>");
 		saida.println("<br>");
-		saida.println("<a href=\"consultar.html\">Consultar produto</a>");
+		saida.println("<a href=\"consultar.jsp\">Consultar produto</a>");
 		saida.println("<br>");
 		saida.println("<br>");
 		saida.println("<a href=\"ListarProdutos.do\">Listar produtos</a>");
